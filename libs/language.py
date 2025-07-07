@@ -14,10 +14,10 @@ optenco = ['UTF-8','ISO-8859-1','UTF-16','UTF-32']
 if language == 'English':
     ### LOGIN PAGE
     LWTE = "PyPWD {} - Login".format(ver)
-    LUSR = "Username"
-    LPWD = "Password"
+    LUSR = "Userid"
+    LPWD = "key"
     LBOK = "OK"
-    LMSG = "Welcome in PYPWD Manager {}".format(ver)
+    LMSG = "PWD Manager coursework {}".format(ver)
     LFUP = "Please fill the Username and password to LOGIN"
     LUCE = "The Username cannot be empty"
     LPCE = "The Passwords cannot be empty"
@@ -42,7 +42,7 @@ if language == 'English':
     ### CREATE PASSWORD DIALOG
     CPPE = "The project name cannot be empty"
     CPWT = "PyPWD {} - Create new".format(ver)
-    CPNP = "Create a new Record Pasword"
+    CPNP = "New Record Pasword"     
     CPPN = "Project"
     CPNO = "Notes"
     CPSP = "Save"
@@ -59,8 +59,8 @@ if language == 'English':
     OSCB = "Export Cleaned in Excel"
     ORRD = "Reset/Remove Database"
     OSID = "Import Database"
-    OOOP = "Old Password"
-    OONP = "New Password"
+    OOOP = "Old Pass"
+    OONP = "New Pass"
     ORMP = "Reset the Master password"
     OROF = "Reset"
     OFEE = "Excel Exported"
@@ -99,9 +99,8 @@ if language == 'English':
     TMOT = "The Session is expired, closing the app!"
     
 else:
-    
     if language == 'Italian':
-        ### LOGIN PAGE
+     ### LOGIN PAGE
         LWTE = "PyPWD {} - Login".format(ver)
         LUSR = "Nome"
         LPWD = "Password"
@@ -187,7 +186,6 @@ else:
         MMTP = "C'é stato un prolema..."
         OOFD = "PyPWD {} - Files Box".format(ver)
         TMOT = "Sessione scaduta, chiudo l'applicazione!"
-        
     else:
-        ### Default Language
+ ### Default Language
         language == 'English'

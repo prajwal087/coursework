@@ -8,7 +8,7 @@ from mainmenu import *
 class Ui_loginmenu(object):       
     def setupUi(self, loginmenu):
         loginmenu.setObjectName("loginmenu")
-        loginmenu.resize(352, 178)
+        loginmenu.resize(400, 220)
         loginmenu.setWindowModality(QtCore.Qt.ApplicationModal)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
@@ -44,7 +44,7 @@ class Ui_loginmenu(object):
         self.msgdialog.setAlignment(QtCore.Qt.AlignCenter)
         self.msgdialog.setObjectName("msgdialog")
         self.msgdialog_2 = QtWidgets.QLabel(loginmenu)
-        self.msgdialog_2.setGeometry(QtCore.QRect(25, 10, 321, 31))
+        self.msgdialog_2.setGeometry(QtCore.QRect(25, 10, 400, 31))
         font = QtGui.QFont()
         font.setPointSize(18)
         self.msgdialog_2.setFont(font)
